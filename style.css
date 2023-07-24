@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* config */
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Noto Sans TC', sans-serif;
+/*   line-height: 1.5;
+  font-size: 24px; */
+}
+
+img{
+  vertical-align: middle;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.ml-auto{
+  margin-left: auto;
+}
+
+.mt-30{
+  margin-top: 30px;
+}
+
+.mt-60{
+  margin-top: 60px;
+}
+
+.container{
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.nav-logo{
+  width: 211px;
+}
+
+.nav, .nav-list, .info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    width: 300px;
+    margin-right: 20px;
+}
+
+.nav-right{
+  width: 319px;
+}
+
+.nav-item{
+  margin-right: 60px;
+  font-size: 16px;
+  color: #3F5D45;
+}
+
+.cate-title{
+    color: white;
+    background-color: #3F5D45;
+    font-size: 24px;
+    padding: 16px;
+}
+
+.cate-list{
+    color: #3F5D45;
+    padding: 16px;
+    font-size: 24px;
+    border-left: 1px solid #EAF0ED;
+    border-right: 1px solid #EAF0ED;
+    border-bottom: 1px solid #EAF0ED;
+}
+
+.cate-on{
+    background-color: #EAF0ED;
+}
+
+.products{
+    width: 620px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 300px;
+    color: #3F5D45;
+    font-size: 20px;
+}
+
+.product-img {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+/* Top left text */
+.featured {
+    position: absolute;
+    top: 1px;
+    left: 20px;
+    writing-mode: vertical-lr;
+    background-color: #3F5D45;
+    padding: 10px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    font-size: 16px;
+}
+
+.fav{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.product{
+    padding: 14px;
+}
+
+.product-name{
+    width: 173px;
+    font-weight: 300;
+    border-left: 1px solid #EAF0ED;
+    border-right: 1px solid #EAF0ED;
+}
+
+.product-price{
+    width: 127px;
+    font-weight: 500;
+    border-right: 1px solid #EAF0ED;
+}
+
+.add-to-cart{
+    display: block;
+    width: 300px;
+    padding: 16px;
+    font-size: 24px;
+    border: 1px solid #EAF0ED;
+    background-color: #EAF0ED;
+    color: #3F5D45;
+    margin-bottom: 20px;
+}
+
+.text-center{
+    text-align: center;
+
+}
+
+
